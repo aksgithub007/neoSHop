@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "gothammedium";
+  src: url("./Font/gotham_medium-webfont.woff2") format("woff2"),
+    url("./Font/gotham_medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: "14px";
+  font-weight: normal;
+  font-style: normal;
+  color: "#282627";
+  font-family: "gothammedium";
+}
+a {
+  text-decoration: none;
+}
+.sectionHeader {
+  text-align: center;
+  margin: 50px 0px;
+}
+.sectionHeader h4 {
+  color: #282627;
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.sectionHeader p {
+  color: #7f7f7f;
+  font-size: 16px;
+  line-height: 5px;
+  font-weight: 500;
+}
+
+.sectionHeader hr {
+  width: 100px;
+  color: #000000;
+  margin: 25px auto;
+  opacity: 1;
+  border-width: 2px;
+  line-height: 25px;
+}
+.shopNow {
+  background: #bb0100;
+  border-radius: 2px;
+  padding: 5px 25px;
+  border: 1px solid transparent;
+  margin: 5px 10px;
+}
+
+.shopNow span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+}

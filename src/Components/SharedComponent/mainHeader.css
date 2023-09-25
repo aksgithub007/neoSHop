@@ -1,0 +1,40 @@
+.mainnavbar {
+  background-color: #fff;
+}
+
+.navbar_collapse {
+  margin: 0px auto;
+}
+.navbar_collapse a {
+  margin-right: 15px;
+}
+.navbar__collapse {
+  margin-top: 25px;
+}
+.icon {
+  color: #282627;
+  margin-right: 10px;
+}
+.input_wrap {
+  position: relative;
+}
+.input {
+  margin-right: 10px;
+  padding: 5px;
+  margin-top: 10px;
+  background-color: #ededed;
+}
+.input:focus {
+  outline: 0px;
+  box-shadow: none;
+  border-color: #282627;
+}
+.searchbutton {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: transparent;
+  border: 0px;
+}

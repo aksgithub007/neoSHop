@@ -1,0 +1,53 @@
+.seller_main_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.rating {
+  margin-bottom: 15px;
+  margin-left: -6px;
+}
+.info h5 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 3px;
+  color: #282627;
+}
+.info p .mainCost {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0px;
+  color: #bfbfbf;
+  margin-right: 5px;
+  text-decoration: line-through;
+}
+.info p .mainCost::before {
+  content: "\20B9";
+  margin-right: 3px;
+  color: #bfbfbf;
+}
+.info p .saleCost {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #282627;
+}
+.info p .saleCost::before {
+  content: "\20B9";
+  margin-right: 3px;
+  color: #282627;
+}
+.shop_button button {
+  padding: 5px 10px;
+  background-color: #fff;
+  border: 0.5px solid #bfbfbf;
+  width: 40px;
+  height: 40px;
+}
+.shop_button button .icon {
+  font-size: 20px;
+}
+.shop_button .primary {
+  margin-right: 10px;
+}

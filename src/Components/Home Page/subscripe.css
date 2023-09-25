@@ -1,0 +1,36 @@
+.Subscribe_Outer_wrapper {
+  padding: 25px 0px;
+  background-image: url("../../image/Subscrube/1.png");
+  background-size: cover;
+  overflow: hidden;
+}
+.form_wrap {
+  position: relative;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.customButton {
+  position: absolute;
+  right: 33%;
+  top: 40%;
+  background-color: transparent;
+  border: 0px;
+}
+.customButton .icon {
+  font-size: 25px;
+  color: #000;
+}
+.customInput {
+  border: 0px solid transparent;
+  border-bottom: 1px solid #000;
+  border-radius: 0px;
+  width: 426px;
+  height: 40px;
+  margin-top: 25px;
+}
+.customInput:focus {
+  outline: 0px;
+  box-shadow: none;
+  border-color: #000;
+}

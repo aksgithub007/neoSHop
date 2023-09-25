@@ -1,0 +1,61 @@
+/* .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+.budget_main_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.budgetWrapper {
+  background-color: #ededed;
+  width: 400px;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.budgetContentWrapper {
+  padding: 2px;
+}
+.budgetContentWrapper .innerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.innerContent p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #4f4f4f;
+  margin: 5px 10px;
+  text-transform: capitalize;
+}
+
+.budgetContentWrapper .price {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 10px;
+  color: #bb0100;
+  text-align: left;
+  margin-left: 10px;
+}
+.budgetContentWrapper .price::before {
+  content: "\20B9";
+  margin-right: 5px;
+}

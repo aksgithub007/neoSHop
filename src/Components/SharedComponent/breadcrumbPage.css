@@ -1,0 +1,24 @@
+.breadcrumb_outer_wapper {
+  width: 100%;
+  height: 153px;
+  background-image: url(../../image/breadcrumb/1.png);
+  background-size: cover;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.breadcrumb_inner_wapper ul {
+  display: flex;
+  justify-content: flex-start;
+}
+.breadcrumb_inner_wapper ul li a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #111111;
+  margin-left: 5px;
+}
+.breadcrumb_inner_wapper ul li a:hover,
+.breadcrumb_inner_wapper ul li a.active {
+  color: #bb0100;
+}
